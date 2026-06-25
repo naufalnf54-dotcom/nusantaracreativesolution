@@ -1,0 +1,170 @@
+/* =========================
+   RESET
+========================= */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar{
+   padding:2px 0;
+
+}
+
+/* =========================
+   HERO
+========================= */
+.hero{
+
+    height:100vh;
+
+    background:url("../images/hero.jpg") center center/cover no-repeat;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+}
+
+/* =========================
+   OVERLAY
+========================= */
+
+.overlay{
+
+    background:rgba(0,0,0,.45);
+
+    padding:60px;
+
+    border-radius:20px;
+
+    max-width:900px;
+
+    color:#fff;
+}
+
+/* =========================
+   TITLE
+========================= */
+
+.overlay h1{
+
+    color:#fff;
+
+    font-size:58px;
+
+    font-weight:800;
+
+    margin-bottom:20px;
+
+    line-height:1.2;
+}
+
+/* =========================
+   PARAGRAPH
+========================= */
+
+.overlay p{
+
+    color:#fff;
+
+    font-size:24px;
+
+    margin-bottom:35px;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.overlay .btn{
+
+    margin:8px;
+}
+/* =======================
+ABOUT
+======================= */
+
+.about{
+
+    padding:100px 0;
+
+    background:#ffffff;
+
+}
+
+.about h5{
+
+    font-weight:bold;
+
+    letter-spacing:3px;
+
+}
+
+.about h2{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.about p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+
+}
+
+.about img{
+
+    border-radius:20px;
+
+}
+.navbar-nav .nav-link{
+    font-size:21px;
+    font-weight:700;
+    letter-spacing:0.5px;
+}
+.navbar-nav .nav-link:hover{
+    color:#FFC107 !important;
+    transition:.3s;
+    .services{
+
+    background:#f8f9fa;
+
+    padding:100px 0;
+
+}
+
+.services .card{
+
+    transition:.4s;
+
+    border-radius:20px;
+
+}
+
+.services .card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
